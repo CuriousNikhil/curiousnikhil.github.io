@@ -7,22 +7,13 @@ flicker: true
 headshot: /images/headshot.jpg
 ---
 
-I am a Software Engineering student at [RMIT University](https://www.rmit.edu.au/) in Melbourne. Starting November 2016 I will be interning with [Zendesk](https://www.zendesk.com/) in a Data Engineering role.
-
-I'm currently doing a lot of work building developer communities around my University. I'll chase any opportunity to improve collaboration and outreach in the tech. industry.
-
-My main areas of interest are in NLP, Agent-Oriented Programming, and Computational Dialectics.
+Hi I'm Nikhil Chaudhari, Android Engineer @ [Helpshift](https://helpshift.com).
+I like android and I try to make my code as revolutionary as possible. You'll find me playing drums and coding.
 
 {% if site.show_talks_section %}
 ## Talks
 
-- Put something here!
-{% endif %}
-
-{% if site.show_workshops_section %}
-## Workshops
-
-- Put something here!
+- Coming soon...
 {% endif %}
 
 

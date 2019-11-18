@@ -32,7 +32,16 @@ p .reversefootnote:hover, p .reversefootnote:active, p .reversefootnote:focus {
 }
 
 </style>
-
+<div id="post-container">
+  {% if page.herotype == "video" %}
+  <video width="100%" poster="" autoplay controls>
+    <source src="{{page.video}}" type="video/mp4">
+  </video>
+  {% else %}
+  <div class="post-wide-hero {{page.uid}}-hero"
+       style="background-image:url({{page.img}}); background-color:{{page.hero-bg-color}}"></div>
+  {% endif %}
+</div>
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>

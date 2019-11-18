@@ -1,19 +1,19 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title:       Junior Theme
-email:       jonathon.bel.melbourne@gmail.com
-author:      Jonathon Belotti
-description: "A striking black-white Jekyll theme."
+title:       Nikhil Chaudhari - Android Blog
+email:       nikhyl777@gmail.com
+author:      Nikhil Chaudhari
+description: "A resourceful android blog by Nikhil Chaudhari"
 baseurl:     ""
-url:         "https://juniortheme.live/"
+url:         "https://nikhilchaudhari.me"
 date_format: "%b %-d, %Y"
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-91610282-1
 google_tag_manager:
 # Bing services
 bing_verification:
@@ -40,7 +40,7 @@ show_workshops_section: true
 ## Disqus post comments             ##
 ## (leave blank to disable Disqus)  ##
 ######################################
-disqus_shortname: 'juniortheme-live'
+disqus_shortname: 'nikhilkchaudhari'
 
 ##########################################################################
 ## Facebook Comments plugin                                             ##
@@ -53,17 +53,17 @@ facebook_comments_number: 10
 ###################################
 ## Social icons                  ##
 ###################################
-github_username: thundergolfer
+github_username: curiousnikhil
 bitbucket_username:
-stackoverflow_id:
-twitter_username: jonobelotti_io
+stackoverflow_id: 7862316
+twitter_username: curiousNikhyl
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username: jonathonbelotti
+linkedin_username: nikhylchaudhari
 angellist_username:
-medium_id: thundergolfer
-youtube_channel_id: UCSP7fMKwmaXaZhViAV2Vgvg
+medium_id: mrcurious
+youtube_channel_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
@@ -73,10 +73,10 @@ flattr_button:
 ###################################
 show_sharing_icons: True
 # Change to 'true' to enable individual icons
-share_facebook: True
+share_facebook: false
 share_twitter: True
-share_googleplus: True
-share_linkedin: false
+share_googleplus: false
+share_linkedin: True
 share_digg: false
 share_tumblr: false
 share_reddit: True
