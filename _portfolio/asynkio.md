@@ -7,7 +7,8 @@ categories: project
 title: Asynkio - Write asynchronous network and IO calls painlessly
 small_title: Asynkio
 description: Write your network requests, IO calls in android with Kotlin seamlessly.
-img: 'http://nikhilchaudhari.me/assets/img/asynkio.png'
+img: http://nikhilchaudhari.me/assets/img/asynkio.png
+icon: '../images/boomerang.png'
 link: https://curiousnikhil.github.io/AsynKio/
 ---
 
@@ -31,7 +32,6 @@ What I mean is..
 	}
 
 Yes, that's it. No retrofit. No Volley. Java/Kotlin are very bad at handling the http requests, but still Asynkio is the optimal way. No extra overhead, Seriously...No bullshit!
-
 Another example
 
 	async {

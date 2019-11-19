@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 tags: about
 flicker: true
-headshot: /images/headshot.jpg
+headshot: /images/headshot.png
 ---
 
 Hi I'm Nikhil Chaudhari, Android Engineer @ [Helpshift](https://helpshift.com).

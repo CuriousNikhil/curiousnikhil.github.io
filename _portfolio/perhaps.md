@@ -8,6 +8,7 @@ title: Perhaps - A true love finding app
 small_title: Perhaps
 description: We help bring together the people who feel this mutual affection for each other but are too shy to reveal their true feelings.
 img: https://mystiko.in/images/projects/perhaps.jpg
+icon: 'https://mystiko.in/images/projects/perhaps.jpg'
 link: https://play.google.com/store/apps/details?id=xyz.mystikolabs.perhaps&hl=en
 ---
 

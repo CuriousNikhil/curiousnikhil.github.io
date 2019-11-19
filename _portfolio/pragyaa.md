@@ -7,7 +7,8 @@ categories: project
 title: Pragyaa - App for national level technical event
 small_title: Pragyaa-2017
 description: An android app for the technocal event Pragyaa-2017
-img: http://2017.pragyaa.org/images/LOGOFINAL.png
+img: https://mystiko.in/images/projects/pragyaa_header.jpg
+icon: 'http://2017.pragyaa.org/images/LOGOFINAL.png'
 link: https://play.google.com/store/apps/details?id=org.pragyaa.pragyaa2017
 ---
 

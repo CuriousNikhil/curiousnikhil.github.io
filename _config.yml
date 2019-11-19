@@ -23,7 +23,7 @@ bing_verification:
 ######################################
 animated:             false
 show_related_posts:   false
-show_post_footers:    True
+show_post_footers:    false
 show_social_icons:    True
 ajaxify_contact_form: false
 enable_mathjax: false

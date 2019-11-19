@@ -11,14 +11,14 @@ js:
 {% for post in site.portfolio %}
   <li>
     <div class="project"
-         style='background-image: url(/images/portfolio/thumbs/{{ post.uid }}.jpg)'>
+         style='background-image: url({{ post.icon }});'>
       <a class="cover" href="{{ post.url }}">
         <div class="project-details">
           <span>
             {{ post.title }}
           </span>
           <span>
-            <i>{{ post.worktype }}</i>
+
           </span>
         </div>
       </a>

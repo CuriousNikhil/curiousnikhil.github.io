@@ -7,7 +7,8 @@ categories: project
 title: TuneIt - android library to create awesome tones
 small_title: TuneIt
 description: A library that let you generate the PCM tones basically a piano/flute tones.
-img: http://www.nikhya.me/assets/img/tuneit.png
+img: https://upload.wikimedia.org/wikipedia/commons/3/33/Tuning_Fork_%28PSF%29.png
+icon: 'https://image.flaticon.com/icons/svg/2106/2106829.svg'
 link: https://curiousnikhil.github.io/TuneIt/
 ---
 

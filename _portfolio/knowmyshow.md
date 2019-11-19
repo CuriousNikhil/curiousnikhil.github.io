@@ -7,7 +7,8 @@ categories: project
 title: KnowMyShow - Explore the whole cinematic world
 small_title: KnowMyShow
 description: An android app for exploring cinematic world in awesome way
-img: https://mystikolabs.xyz/images/projects/knowmyshow.png
+img: https://mystiko.in/images/projects/knowmyshow.png
+icon: 'https://lh3.googleusercontent.com/hSC947GmKazclpZtnELGNaEV9VBwJuKDJT3ecrEvRQNJ4LtpJlzBo82IkL9PgGnrIw=s360-rw'
 link: https://play.google.com/store/apps/details?id=net.dimiourgos.knowmyshow
 ---
 
