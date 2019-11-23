@@ -4,7 +4,6 @@ title: Converting RSS feeds to JSON using my API on Android-Kotlin
 date: 2018-06-28 12:00:20 +0300
 summary: My free api to convert the RSS feeds to JSON and how to use it in android kotlin
 img: https://nikhilchaudhari.me/assets/img/api.png
-categories: [Android,NodeJS,Kotlin,Retrofit]
 ---
 
 So, I was working on one podcast app during my internship with the RSS feed. Basically, an RSS feed is a metadata and contains actual data in specific format. The RSS is based on `XML` format and includes data inside `xml tags`. I wanted to extract the URLS, descriptions and other stuffs from that RSS. 

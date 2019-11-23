@@ -4,7 +4,6 @@ title: Socket.IO best practices on Android Client
 date: 2018-1-13 18:32:20 +0300
 summary: How to implement the socket.Io in android, Best practices for implementing socket.io on android
 img: https://nikhilchaudhari.me/assets/img/socket.jpg
-categories: [Android,Socket.IO]
 ---
 
 [Socket.IO](https://socket.io/ "Socket Io Project") enables real-time bidirectional event-based communication. It works on every platform, browser or device, focusing equally on reliability and speed. Socket.IO is built on top of the WebSockets API (Client side) and Node.js.

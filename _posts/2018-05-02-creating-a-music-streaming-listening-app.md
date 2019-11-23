@@ -4,7 +4,6 @@ title: Creating a Music Streaming Server and live music playing android client
 date: 2018-05-02 20:32:20 +0300
 summary: An android app listening the realtime audio stream streamed by the simple streaming server created by your own.
 img: "https://firebasestorage.googleapis.com/v0/b/todo-a326b.appspot.com/o/music.jpg?alt=media&token=bef54bbf-1a9c-4bee-8486-2e251e1563bd"
-categories: [Android,NodeJS,Audio]
 ---
 
 I'd an awesome experience when I was in [Smart India Hackathon Finals](https://innovate.mygov.in/sih2018/) and we'd worked on one problem of public announcement system. So, I've decided to write a blog on how to make a simple audi/music streaming server in NodeJs and a simple android app which will stream the realtime audio. By using following code you can make your own local simple music streaming server and that music can be listened on an  android client or a browser in realtime. So, let's open the oven to cook this recipe. 

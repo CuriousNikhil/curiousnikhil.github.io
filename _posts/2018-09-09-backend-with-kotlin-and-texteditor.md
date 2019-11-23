@@ -4,8 +4,6 @@ title: A complete Backend only with Kotlin and your favourite text-editor!
 date: 2018-09-08 20:32:20 +0300
 summary: Creating a backend with Kotlin and Ktor framework just using text-editor with the help of Kscript
 img: https://nikhilchaudhari.me/assets/img/ktor.jpg
-img_alt: Backend with Ktor
-categories: [KTor,Kotlin,Backend]
 ---
 
 What ?!! Okay, let me clarify. Let’s build a complete backend /web-app with
