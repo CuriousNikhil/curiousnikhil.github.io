@@ -1,4 +1,3 @@
-// this aint supposed to be private... just idiot proof
 var showcasePwd = "sesame";
 
 $(document).ready(function(){

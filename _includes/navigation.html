@@ -7,13 +7,13 @@
                 <h4><a class="nav-underline home" href="{{site.url}}">Home</a></h4></li>
             {% for page in site.pages %}
 
-            {% if page.tags contains "about" %}
-            <li class="about-anc">
-                <h4><a class="nav-underline about" href="{{page.url}}">{{page.title}}</a></h4></li>
-            {% endif %}
             {% if page.tags contains "portfolio" %}
             <li class="team-anc">
                 <h4><a class="nav-underline portfolio" href="{{page.url}}">{{page.title}}</a></h4></li>
+            {% endif %}
+            {% if page.tags contains "about" %}
+            <li class="about-anc">
+                <h4><a class="nav-underline about" href="{{page.url}}">{{page.title}}</a></h4></li>
             {% endif %}
 
             {% endfor %}
@@ -24,7 +24,5 @@
             </li>
         </div>
 </ul>
-<!--
-<div class="title-div">
-  <div class="title" style="transform: translate(0%, -116%) matrix(1, 0, 0, 1, 0, 0);"><span class="title-label">About</span></div>
-</div> -->
+
+

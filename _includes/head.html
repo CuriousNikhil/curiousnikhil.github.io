@@ -3,11 +3,15 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=[[[TRACKING ID HERE]]]"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', '[[[TRACKING ID HERE]]]');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', '[[[TRACKING ID HERE]]]');
     </script>
     {% endif %}
     <meta charset="utf-8">
@@ -18,25 +22,38 @@
     <link rel="dns-prefetch" href="//cdn.mathjax.org">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
-    {% if page.meta_robots %}<meta name="robots" content="{{ page.meta_robots }}">
-    {% else %}<meta name="robots" content="all">{% endif %}
+    <meta name="description"
+          content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    {% if page.meta_robots %}
+    <meta name="robots" content="{{ page.meta_robots }}">
+    {% else %}
+    <meta name="robots" content="all">
+    {% endif %}
     <meta name="author" content="{{ site.author }}">
-    {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
+    {% if page.categories %}
+    <meta name="keywords" content="{{ page.categories | join: ', ' }}">
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "
+    /feed.xml" | prepend: site.baseurl }}" />
 
     <!-- JQuery -->
     <script aync src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- Page-type specific CSS -->
     {% if page.categories contains "project" or page.tags contains "portfolio" %}
-    <link rel="stylesheet" href="{{ "/css/960.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/css/portfolio.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "
+    /css/960.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "
+    /css/portfolio.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    {% endif %}
+    {% if page.tags contains "home" %}
+    <link rel="stylesheet" href=" {{"/css/header_anim.css"}}" type="text/css">
     {% endif %}
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="{{ "/css/junior.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "
+    /css/junior.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
 
     {% if page.tags contains "resume" %}
     <link href="../css/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
@@ -47,7 +64,8 @@
     {% endif %}
 
     {% if page.tags contains "projects" %}
-    <link rel="stylesheet" href="{{ "/css/projects.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "
+    /css/projects.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/3.0.3/extras/css/emojione.min.css"/>
     {% endif %}
 
@@ -58,7 +76,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,800" rel="stylesheet">
     {% endif %}
     {% if site.show_social_icons or site.show_sharing_icons %}
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     {% endif %}
 
     <!-- MathJax -->
@@ -69,27 +87,30 @@
 
     <!-- Verifications -->
     {% if site.google_verification %}
-      <meta name="google-site-verification" content="{{ site.google_verification }}" />
+    <meta name="google-site-verification" content="{{ site.google_verification }}"/>
     {% endif %}
     {% if site.bing_verification %}
-      <meta name="msvalidate.01" content="{{ site.bing_verification }}" />
+    <meta name="msvalidate.01" content="{{ site.bing_verification }}"/>
     {% endif %}
 
     <meta property="og:locale" content="{{ site.text.og_locale }}">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    <meta property="og:title"
+          content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
+    <meta property="og:description"
+          content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary"/>
     {% if site.twitter_username %}
-        <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+    <meta name="twitter:site" content="@{{ site.twitter_username }}"/>
     {% endif %}
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta name="twitter:description"
+          content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}"/>
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{site.url}}/images/favicons/apple-icon-57x57.png">
@@ -101,7 +122,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="{{site.url}}/images/favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="{{site.url}}/images/favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{site.url}}/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{site.url}}/images/favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="{{site.url}}/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/images/favicons/favicon-16x16.png">
