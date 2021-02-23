@@ -7,7 +7,7 @@ flicker: true
 headshot: /images/nikhil_insta.jpg
 ---
 
-Thanks for stopping by!😄
+Thanks for stopping by!😄<br/>
 Hi I'm Nikhil, Android Engineer @ [Helpshift](https://helpshift.com) working on [_android SDK_](https://developers.helpshift.com/). 
 
 I am Android and Kotlin enthusiast <img src="https://banner2.cleanpng.com/20180712/wtz/kisspng-android-software-development-kotlin-mobile-app-dev-android-programming-5b47975c864181.2459683915314184605499.jpg" width="20" height="20">. 
