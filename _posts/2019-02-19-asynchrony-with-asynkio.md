@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Asynchrony made much more simpler with Asynkio !!
+title: Concurrency made simple with Asynkio!!
 date: 2019-02-18 20:32:20 +0300
 summary: Write your Network Requests and IO calls painlessly with Asynkio in Android/Kotlin
 img: https://cdn-images-1.medium.com/max/2600/1*X5FJtXXFWY2yL5FqSWlLUw.png
