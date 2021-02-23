@@ -7,13 +7,18 @@ flicker: true
 headshot: /images/nikhil_insta.jpg
 ---
 
-Hi I'm Nikhil Chaudhari, Android Engineer @ [Helpshift](https://helpshift.com) working on _android SDK_. 
+Thanks for stopping by!😄
+Hi I'm Nikhil, Android Engineer @ [Helpshift](https://helpshift.com) working on [_android SDK_](https://developers.helpshift.com/). 
 
-I like android and I try to make my code as revolutionary as possible. You'll find me playing drums and coding.
-I am _[ESFJ](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png)_ type - _programming enthusiast_ and of course, Batman!<br> 
-Always there for help !
+I am Android and Kotlin enthusiast <img src="https://banner2.cleanpng.com/20180712/wtz/kisspng-android-software-development-kotlin-mobile-app-dev-android-programming-5b47975c864181.2459683915314184605499.jpg" width="20" height="20">. 
+I write awesome libraries and apps for Android and Kotlin. You can check few of my stuff on [Github](https://github.com/CuriousNikhil) and [Playstore](https://play.google.com/store/apps/developer?id=Mystiko+Labs).
 
-Co-founder - [Mystiko.in](https://mystiko.in)
+I play Percussions - Cajon, Tabla and Dholki (Indian percussions). <br/>
+Follow me on [Instagram](https://www.instagram.com/nikhiil_chaudhari/) to check my music related videos (I'm not a pro though 😛).<br/>
+Apart from that you will find me cooking, coding and reading in my free time.
+
+Feel free to reach out to me via [mail](nikhyl777@gmail.com) or [Twitter](https://twitter.com/curiousnikhyl). Always there for help!😊
+
 
 {% if site.show_talks_section %}
 ## Talks
