@@ -8,8 +8,8 @@ headshot: /images/nikhil_insta.jpg
 ---
 
 Thanks for stopping by!😄<br/>
-Hi, I'm Nikhil. Android Engineer @[Paypay Corp](https://helpshift.com), Tokyo, Japan. I work on Paypay's android payment app. 
-Previously, I was in [Helpshift](https://helpshift.com) where I worked on developing [_android SDKs_](https://developers.helpshift.com/). 
+Hi, I'm Nikhil. Android Engineer @[Paypay Corp](https://paypay.ne.jp/), Tokyo, Japan. I work on Paypay's android payment app. 
+Previously, I was in [Helpshift](https://helpshift.com), Pune where I worked on developing [_android SDKs_](https://developers.helpshift.com/). 
 
 I am an Android and Kotlin enthusiast <img src="https://banner2.cleanpng.com/20180712/wtz/kisspng-android-software-development-kotlin-mobile-app-dev-android-programming-5b47975c864181.2459683915314184605499.jpg" width="20" height="20">. 
 I write awesome apps, libraries for Android and Kotlin. You can check my stuff on [Github](https://github.com/CuriousNikhil) and [Playstore](https://play.google.com/store/apps/developer?id=Mystiko+Labs).
