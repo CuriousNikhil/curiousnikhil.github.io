@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 tags: about
 flicker: true
-headshot: /images/nikhil_insta.jpg
+headshot: /images/nikihiru.jpg
 ---
 
 Thanks for stopping by!😄<br/>
