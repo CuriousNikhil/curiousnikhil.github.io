@@ -16,9 +16,9 @@ You can check my stuff on [Github](https://github.com/CuriousNikhil) and [Playst
 
 Follow me on twitter [@CuriousNikhyl](https://twitter.com/curiousnikhyl) where I upload cool stuff regarding Android, Kotlin, super awesome Jetpack Compose animations and other in general. 
 
-I also play Percussions - Handsonic, Cajon, Tabla and Dholki (Indian percussions). <br/>
-Follow me on [Instagram](https://www.instagram.com/nikhiil_chaudhari/) to check out my artistry. I usually upload song covers there (I'm not a pro but still..😛).<br/>
-Apart from that you will find me cooking, coding and reading in my free time.
+I like to Travel and explore places and I also play Percussions - Handsonic, Cajon, Tabla and Dholki (Indian percussions). <br/>
+Follow me on [Instagram](https://www.instagram.com/nikhiil_chaudhari/) to check out my travel posts and song covers!
+Apart from that, you will find me cooking, coding and reading in my free time.
 
 
 Feel free to reach out to me via [mail](nikhyl777@gmail.com) or [Twitter](https://twitter.com/curiousnikhyl). Always there for help!😊 DM me your interesting problems😉!
